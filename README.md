@@ -7,7 +7,7 @@ Cache folder: %LOCALAPPDATA%\Google\DriveFS
 
 Sometimes, Google Drive File Stream doesn't sync with Google Drive due to the cache folder. By running the batch file, Google Drive File Stream program is finished and the cache folder (DriveFS to DriveFS2) is renamed, and then Google Drive File Stream program is started.
 
-If the renamed cache folder (DriveFS2) exists, the batch file displays the error message and stop the process. Because there may be an unsynchronised data in the renamed cache folder.
+If the renamed cache folder (DriveFS2) exists, the batch file displays the error message, stop the process, and open the upper folder of the cache folder. Because there may be an unsynchronised data in the renamed cache folder.
 
 Therefore, please confirm to be synced data to Google Drive if possible.
 
@@ -18,6 +18,6 @@ Therefore, please confirm to be synced data to Google Drive if possible.
 
 時々、このソフトは Google ドライブと同期しないトラブルが生じします。その場合に、このバッチファイルを実行することで、問題が解決することがあります。このバッチファイルは、ソフトを終了し、キャッシュフォルダの名前変更（DriveFS を DriveFS2へ名前変更）をした上で、ソフトを起動します。
 
-もし、名前変更したキャッシュファイル（DriveFS2）が存在すれば、このバッチファイルは、エラーを表示して処理を停止します。なぜなら、キャッシュフォルダに同期が完了していないデータが入っている可能性があるためです。
+もし、名前変更したキャッシュファイル（DriveFS2）が存在すれば、このバッチファイルは、エラーを表示して処理を停止し、キャッシュフォルダのある上位フォルダを開きます（手動で名前変更したり、バックアップできるようにするため）。なぜなら、キャッシュフォルダに同期が完了していないデータが入っている可能性があるためです。
 
 そのため、可能であれば、このバッチファイルをつかう前に、Googleドライブにデータが同期されていることを確認するとよいでしょう。
